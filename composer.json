@@ -18,9 +18,9 @@
       "SJBR\\SrFeuserRegister\\": "Classes/"
     },
     "classmap": [
-      "web/typo3conf/ext/jfmulticontent/lib/",
-      "web/typo3conf/ext/jfmulticontent/",
-      "web/typo3conf/ext/jfmulticontent/pi1/" 
+      "/web/typo3conf/ext/jfmulticontent/lib/",
+      "/web/typo3conf/ext/jfmulticontent/",
+      "/web/typo3conf/ext/jfmulticontent/pi1/" 
     ]
   }
 }
