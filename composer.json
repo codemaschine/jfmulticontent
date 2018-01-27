@@ -1,0 +1,27 @@
+{
+  "name": "Gregor-Agnes/jfmulticontent",
+  "description": "Arranges multiple contents into one content element with multiple columns, accordions, tabs, slider, slidedeck, easyAccordion or Booklet (Sponsored by http://www.made-in-nature.de/typo3-agentur.html). This extension will also extend tt_news with two new lists. Use t3jquery for better integration with other jQuery extensions.",
+  "type": "typo3-cms-extension",
+  "version": "3.0.0,
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "Juergen Furrer",
+      "role": "Developer"
+    }
+  ],
+   },
+  "require": {
+  	 "typo3/cms-core": ">=7.6.0,<9.0",
+  	  },
+  "autoload": {
+    "psr-4": {
+      "SJBR\\SrFeuserRegister\\": "Classes/"
+    },
+    "classmap": [
+      "web/typo3conf/ext/jfmulticontent/lib/",
+      "web/typo3conf/ext/jfmulticontent/",
+      "web/typo3conf/ext/jfmulticontent/pi1/"
+    ]
+  }
+}
