@@ -17,9 +17,9 @@
     "psr-4": {
     },
     "classmap": [
-      "/web/typo3conf/ext/jfmulticontent/lib/",
-      "/web/typo3conf/ext/jfmulticontent/",
-      "/web/typo3conf/ext/jfmulticontent/pi1/" 
+      "lib/",
+      "/",
+      "pi1/" 
     ]
   }
 }
