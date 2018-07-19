@@ -982,7 +982,7 @@ class tx_jfmulticontent_pi1 extends \TYPO3\CMS\Frontend\Plugin\AbstractPlugin
                     $options[] = "theme: '" . \TYPO3\CMS\Core\Utility\GeneralUtility::slashJS($this->conf['config.']['sliderTheme']) . "'";
                     if (substr($this->confArr['anythingSliderThemeFolder'], 0, 4) === 'EXT:') {
                         list($extKey, $local) = explode('/', substr($this->confArr['anythingSliderThemeFolder'], 4), 2);
-                        $anythingSliderThemeFolder = t3lib_extMgm::siteRelPath($extKey) . $local;
+                        $anythingSliderThemeFolder = \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::siteRelPath($extKey) . $local;
                     } else {
                         $anythingSliderThemeFolder = $this->confArr['anythingSliderThemeFolder'];
                     }
